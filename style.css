@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital@1&family=Monoton&family=Oswald:wght@300&family=Roboto+Slab:wght@300&family=Sacramento&display=swap');
+
+:root {
+    --LetraDeMão: 'Sacramento';
+    --LetraDeMusica:'Monoton';
+    --Espaçada: 'Cousine';
+    --SemSerif: 'Oswald';
+    --ComSerif: 'Roboto Slab';
+}
+body{
+    background-color: rgb(107, 66, 36);
+}
+
+#titulo{
+    font-size: 3.5em;
+    color: rgb(80, 5, 5);
+}
+
+
+.font1{
+    font-family: var(--LetraDeMão);
+    font-size: 2em;
+    background-color: rgb(235, 235, 192);
+}
+h1{
+    color: rgb(187, 60, 60);
+}
+.font2{
+    font-family: var(--LetraDeMusica);
+    font-size: 1.2em;
+    background-color: rgb(235, 235, 192);
+}
+
+
+.font3{
+    font-family: var(--Espaçada);
+    font-size: 1.5em;
+    background-color: rgb(235, 235, 192);
+}
+
+.font4{
+    font-family: var(--SemSerif);
+    font-size: 2em;
+    background-color: rgb(235, 235, 192);
+}
+
+.font5{
+    font-family: var(--ComSerif);
+    font-size: 1.5em;
+    background-color: rgb(235, 235, 192);
+}
